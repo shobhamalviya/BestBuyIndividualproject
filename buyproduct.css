@@ -1,0 +1,284 @@
+#productnav{
+    height:70px;
+    width:auto;
+    background-color:rgb(0,90,212) ;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,90px);
+    margin:auto;
+    display:flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+#productnav>div{
+    color:white;
+    
+}
+#productnav>div>img{
+    height:66px;
+    width:70px;
+  
+}
+#productnav>div>input{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 350px 10px 10px;
+   border-radius: 5px;
+   border:0;
+   margin-right:200px;
+}
+imag{
+    margin-right:100px;
+}
+#cart{
+    display:flex;
+}
+#imgcart{
+    margin-top: 20px;
+}
+#cartul{
+    text-decoration: underline;
+}
+#aieay{
+    display:flex;
+}
+#aiya{
+    height:25px;
+    margin-top:20px;
+}
+#menu{
+    padding-right: 100px;
+}
+#prolast{
+    height:50px;
+    width:auto;
+    margin-top:1px;
+    background-color: rgb(0,90,212) ;
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: repeat(1,50px);
+}
+.pro1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pro1:hover{
+    text-decoration: underline;
+}
+.logiorder{
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#product{
+    height:700px;
+    width:100%;
+    /* border:1px solid red; */
+    display:flex;
+}
+#product>:nth-child(1)>img{
+    height:600px;
+    width:70%;
+    margin-top:40px;
+    margin-left:120px;
+    
+}
+#product>:nth-child(2){
+    height:600px;
+    width:50%;
+    /* border:1px solid black; */
+   margin-left:150px;
+   margin-top:40px;
+   padding-left:200px;
+}
+#product>:nth-child(2)>h5{
+    color:blue;
+    font-size:16px;
+    margin-left:200px;
+}
+#product>:nth-child(2)>h5+p{
+    font-size:22px;
+    margin-left:200px;
+}
+#product>:nth-child(2)>h5+p~p{
+    margin-left:200px;
+}
+.productLabel{
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:200px;
+}
+
+.productLabel+input{
+    width:350px;
+    height:40px;
+    margin-left:200px;
+}
+
+.productLabel+input+button{
+    height:40px;
+    width:350px;
+    margin-top:20px;
+    margin-left:200px;
+    font-weight: bold;
+    background-color:rgb(250, 214, 95);
+    border:none;
+}
+#card{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,200px);
+    gap:20px;
+    margin-top:50px;
+   
+}
+
+#card>div img{
+    padding-left:70px;
+   
+}
+#card>div h4{
+    text-align: center;
+    color:blue;
+}
+#card>div h4:hover{
+    text-decoration: underline;
+}
+/* *{
+ color: white;
+ padding: 0px;
+ margin: 0px;
+} */
+
+/* #footermain{
+ height: 800px;
+ width: 100%;
+ border:2px solid red;
+} */
+#footerpage1{
+    height: 15%;
+    width: 100%;
+    background-color:azure;
+    color: white;
+    
+   
+    /* #003953
+    #144860 */
+   }
+   #f1>input{
+    
+    color:gray;
+    margin-left: 30px;
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+   }
+   #f1>p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font:600 18px Open Sans,sans-serif;
+    margin-bottom: 8px;
+    color:black;
+   } 
+   #f1>h3{
+    
+    margin-left: 30px;
+    font:600 18px Open Sans,sans-serif;
+    color: black;
+    margin-top: 170px;
+   
+   } 
+   #f1>button{
+    
+    
+    background-color:#032c48;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+   } 
+   #f1>button:hover{
+    color: black;
+    background-color: white;
+   } 
+   #f2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 360px;
+    grid-template-rows: 550px;
+    
+   }
+   /* #footerpage2>div{
+    border:2px solid red;
+   } */
+   #f2>div>ul{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom:3px;
+    list-style:none;
+   color:blue;
+   } 
+   #f2>div>h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    color:black;
+   } 
+   #f2>div>ul>li{
+    margin-left: 10px;
+    color:black;
+    margin-bottom:5px;
+   } 
+   #f3>div{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    background-color: azure;
+    margin-top: 25px;
+   } 
+   #f3>div>h3{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: blue;
+   } 
+   #f3>div>p{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+   } 
+   #f3>div>button{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+    border-color: white;
+    background-color: azure;
+    padding: 5px 17px 5px 17px ;
+   } 
+   #f4{
+    height: 50px;
+    width: 330px;
+    margin-left: 13px;
+    margin-top: 5px;
+    
+   } 
+   #f5{
+    height: 90px;
+    width: 100%;
+    background-color: azure;
+   } 
+   #f5>p:nth-child(1){
+    margin-top: 20px;
+    margin-left: 50px;
+    color:black;
+   } 
+   #f5>p:nth-child(2){
+    margin-top: 20px;
+    margin-left: 50px;
+    color:black;
+   }
